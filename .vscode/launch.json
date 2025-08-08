@@ -20,26 +20,6 @@
         "<node_internals>/**",
         "node_modules/**"
       ]
-    },
-    {
-      "name": "调试螺旋矩阵",
-      "type": "node", 
-      "request": "launch",
-      "program": "${workspaceFolder}/node_modules/ts-node/dist/bin.js",
-      "args": ["${workspaceFolder}/螺旋矩阵.ts"],
-      "cwd": "${workspaceFolder}",
-      "restart": true,
-      "env": {
-        "TS_NODE_SKIP_IGNORE": "true"
-      },
-      "runtimeArgs": ["--nolazy"],
-      "sourceMaps": true,
-      "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen",
-      "skipFiles": [
-        "<node_internals>/**",
-        "node_modules/**"
-      ]
     }
   ]
 }
